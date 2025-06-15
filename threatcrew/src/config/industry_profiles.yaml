@@ -1,0 +1,209 @@
+energy:
+  common_domains:
+  - exxonmobil.com
+  - chevron.com
+  - bp.com
+  - shell.com
+  - ge.com
+  - siemens.com
+  - schneider-electric.com
+  industry: Energy & Utilities
+  keywords:
+  - energy
+  - electric
+  - power
+  - utility
+  - grid
+  - oil
+  - gas
+  - nuclear
+  - solar
+  - wind
+  - renewable
+  - scada
+  regulatory_focus:
+  - NERC-CIP
+  - TSA
+  - CISA
+  - ICS-CERT
+  threat_vectors:
+  - critical_infrastructure_attacks
+  - scada_attacks
+  - industrial_espionage
+  - supply_chain_compromise
+financial_services:
+  common_domains:
+  - bank.com
+  - bankofamerica.com
+  - chase.com
+  - wellsfargo.com
+  - paypal.com
+  - stripe.com
+  - visa.com
+  - mastercard.com
+  industry: Financial Services
+  keywords:
+  - bank
+  - banking
+  - finance
+  - credit
+  - loan
+  - mortgage
+  - investment
+  - trading
+  - insurance
+  - fintech
+  - paypal
+  - visa
+  - mastercard
+  - amex
+  - crypto
+  - blockchain
+  regulatory_focus:
+  - PCI-DSS
+  - SOX
+  - GDPR
+  - PSD2
+  threat_vectors:
+  - phishing
+  - business_email_compromise
+  - credential_harvesting
+  - fake_banking_sites
+  - payment_fraud
+  - crypto_scams
+government:
+  common_domains:
+  - whitehouse.gov
+  - defense.gov
+  - state.gov
+  - treasury.gov
+  - dhs.gov
+  - fbi.gov
+  - cia.gov
+  - nsa.gov
+  industry: Government
+  keywords:
+  - gov
+  - government
+  - federal
+  - state
+  - local
+  - military
+  - defense
+  - embassy
+  - congress
+  - senate
+  - court
+  regulatory_focus:
+  - FISMA
+  - NIST
+  - CISA
+  - FedRAMP
+  threat_vectors:
+  - nation_state_attacks
+  - espionage
+  - election_interference
+  - critical_infrastructure
+  - classified_data_theft
+healthcare:
+  common_domains:
+  - mayo.edu
+  - clevelandclinic.org
+  - johnshopkins.edu
+  - cdc.gov
+  - nih.gov
+  - who.int
+  industry: Healthcare
+  keywords:
+  - hospital
+  - medical
+  - health
+  - patient
+  - clinic
+  - pharmacy
+  - medicare
+  - medicaid
+  - insurance
+  - hipaa
+  - ehr
+  - emr
+  regulatory_focus:
+  - HIPAA
+  - HITECH
+  - FDA
+  - GDPR
+  threat_vectors:
+  - ransomware
+  - data_theft
+  - patient_data_breach
+  - medical_device_attacks
+  - supply_chain_attacks
+retail:
+  common_domains:
+  - amazon.com
+  - walmart.com
+  - target.com
+  - costco.com
+  - ebay.com
+  - etsy.com
+  - shopify.com
+  - stripe.com
+  industry: Retail & E-commerce
+  keywords:
+  - retail
+  - shopping
+  - ecommerce
+  - store
+  - mall
+  - amazon
+  - walmart
+  - target
+  - costco
+  - payment
+  - pos
+  - checkout
+  regulatory_focus:
+  - PCI-DSS
+  - CCPA
+  - GDPR
+  - PIPEDA
+  threat_vectors:
+  - pos_malware
+  - e-skimming
+  - payment_fraud
+  - customer_data_theft
+  - inventory_manipulation
+technology:
+  common_domains:
+  - microsoft.com
+  - google.com
+  - amazon.com
+  - apple.com
+  - github.com
+  - stackoverflow.com
+  - docker.com
+  industry: Technology
+  keywords:
+  - tech
+  - software
+  - cloud
+  - saas
+  - api
+  - developer
+  - github
+  - aws
+  - azure
+  - google
+  - microsoft
+  - apple
+  regulatory_focus:
+  - SOC2
+  - ISO27001
+  - GDPR
+  - CCPA
+  threat_vectors:
+  - supply_chain_attacks
+  - code_injection
+  - api_abuse
+  - insider_threats
+  - intellectual_property_theft

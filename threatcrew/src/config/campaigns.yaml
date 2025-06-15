@@ -1,0 +1,146 @@
+current_campaign:
+  active: true
+  campaign_name: GE Vernova Critical Infrastructure Security
+  confidence_threshold: 0.8
+  created_at: '2025-06-15T17:26:07.399788'
+  geographic_focus:
+  - United States
+  - Europe
+  - Asia Pacific
+  - Middle East
+  industries: []
+  targets:
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.400368'
+      domain: gevernova.com
+      industry: energy
+    name: GE Vernova
+    priority: 5
+    tags:
+    - critical_infrastructure
+    - energy
+    - primary_target
+    target_type: company
+    value: gevernova.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.400993'
+      domain: ge.com
+      industry: energy
+    name: General Electric
+    priority: 4
+    tags:
+    - ge_subsidiary
+    - energy
+    target_type: company
+    value: ge.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.401757'
+      domain: gepower.com
+      industry: energy
+    name: GE Power
+    priority: 4
+    tags:
+    - ge_subsidiary
+    - energy
+    target_type: company
+    value: gepower.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.402874'
+      domain: ge.com/renewableenergy
+      industry: energy
+    name: GE Renewable Energy
+    priority: 4
+    tags:
+    - ge_subsidiary
+    - energy
+    target_type: company
+    value: ge.com/renewableenergy
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.408321'
+      keywords:
+      - energy
+      - electric
+      - power
+      - utility
+      - grid
+      - oil
+      - gas
+      - nuclear
+      - solar
+      - wind
+      - renewable
+      - scada
+      regulatory_focus:
+      - NERC-CIP
+      - TSA
+      - CISA
+      - ICS-CERT
+      threat_vectors:
+      - critical_infrastructure_attacks
+      - scada_attacks
+      - industrial_espionage
+      - supply_chain_compromise
+    name: energy Industry
+    priority: 5
+    tags:
+    - industry
+    target_type: industry
+    value: energy
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.409775'
+      domain: gevernova.com
+    name: 'Domain: gevernova.com'
+    priority: 4
+    tags:
+    - domain
+    target_type: domain
+    value: gevernova.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.411345'
+      domain: ge.com
+    name: 'Domain: ge.com'
+    priority: 4
+    tags:
+    - domain
+    target_type: domain
+    value: ge.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.413058'
+      domain: gepower.com
+    name: 'Domain: gepower.com'
+    priority: 4
+    tags:
+    - domain
+    target_type: domain
+    value: gepower.com
+  - active: true
+    metadata:
+      added_date: '2025-06-15T17:26:07.414932'
+      domain: gepowersolutions.com
+    name: 'Domain: gepowersolutions.com'
+    priority: 4
+    tags:
+    - domain
+    target_type: domain
+    value: gepowersolutions.com
+  threat_types:
+  - supply_chain
+  - nation_state
+  - ransomware
+  - critical_infrastructure
+  - insider_threat
+  - scada_attacks
+  - industrial_espionage
+  time_range:
+    end: null
+    start: '2025-06-15T17:26:07.399778'
+  updated_at: '2025-06-15T17:26:07.421493'
+last_updated: '2025-06-15T17:26:07.421539'
