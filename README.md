@@ -14,6 +14,12 @@
 - **Historical Context**: Each analysis leverages past intelligence for better accuracy
 - **Automatic Learning**: System gets smarter with every threat analyzed
 
+### 🔄 **Automated Threat Feed Ingestion**
+- **Multi-Source Collection**: Public feeds (OTX, MISP, ThreatFox, Bambenek, FireHOL)
+- **Real-time Processing**: Continuous monitoring and IOC extraction
+- **Smart Classification**: AI-powered risk assessment and categorization
+- **Quality Assurance**: Validation, deduplication, and confidence scoring
+
 ### 🤖 **Custom Fine-tuned Models**
 - **Real Data Training**: Uses **only actual threat intelligence** datasets
 - **Domain Expertise**: Purpose-built for IOC classification and threat analysis
@@ -66,6 +72,14 @@ python -m threatcrew.main --file iocs.txt
 
 # Generate threat intelligence report
 python -m threatcrew.main --report --campaign "APT Analysis"
+
+# Start automated threat feed ingestion
+python -c "
+from threatcrew.managers.threat_feed_manager import get_threat_feed_manager
+import asyncio
+tfm = get_threat_feed_manager()
+asyncio.run(tfm.start_feed_monitoring())
+"
 
 # Web interface
 cd ../ui
@@ -155,6 +169,7 @@ ThreatAgent/
 ## 🔧 Configuration Files
 
 - **[Real Data Configuration Guide](./REAL_DATA_CONFIGURATION_GUIDE.md)**: Complete guide for real data setup
+- **[Level 1 Ingestion Guide](./LEVEL_1_INGESTION_GUIDE.md)**: Comprehensive guide for public threat intel feeds
 - **[User Guide](./USER_GUIDE.md)**: Comprehensive usage instructions
 - **[System Implementation Summary](./IMPLEMENTATION_SUMMARY_REAL_DATA.md)**: Technical implementation details
 - **[Quick Reference](./QUICK_REFERENCE.md)**: Common commands and workflows
