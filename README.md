@@ -84,6 +84,10 @@ asyncio.run(tfm.start_feed_monitoring())
 # Web interface
 cd ../ui
 python main.py
+
+# Try the ingestion demo
+cd ../examples
+python quick_ingestion_demo.py
 ```
 
 ## 📊 Real Data Configuration
@@ -170,6 +174,7 @@ ThreatAgent/
 
 - **[Real Data Configuration Guide](./REAL_DATA_CONFIGURATION_GUIDE.md)**: Complete guide for real data setup
 - **[Level 1 Ingestion Guide](./LEVEL_1_INGESTION_GUIDE.md)**: Comprehensive guide for public threat intel feeds
+- **[Examples](./examples/README.md)**: Practical examples and demonstrations
 - **[User Guide](./USER_GUIDE.md)**: Comprehensive usage instructions
 - **[System Implementation Summary](./IMPLEMENTATION_SUMMARY_REAL_DATA.md)**: Technical implementation details
 - **[Quick Reference](./QUICK_REFERENCE.md)**: Common commands and workflows
